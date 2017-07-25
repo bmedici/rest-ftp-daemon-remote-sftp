@@ -21,6 +21,10 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version      = ">= 2.3"
 
   # Runtime dependencies
+  spec.add_runtime_dependency     "net-sftp"
+  spec.add_runtime_dependency     "rbnacl", '>= 3.2', '< 5.0'
+  spec.add_runtime_dependency     "rbnacl-libsodium"
+  spec.add_runtime_dependency     "bcrypt_pbkdf"
 
   # Development dependencies
   spec.add_development_dependency "bundler", "~> 1.6"
