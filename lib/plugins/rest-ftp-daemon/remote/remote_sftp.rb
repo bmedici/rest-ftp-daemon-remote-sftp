@@ -13,7 +13,7 @@ end
 
 # Handle sFTP transfers for Remote class
 module RestFtpDaemon::Remote
-  class RemoteSFTP < RemoteBase
+  class RemoteSftp < RemoteBase
 
     # Class options
     attr_reader :sftp
